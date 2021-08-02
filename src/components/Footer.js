@@ -15,7 +15,7 @@ class Footer extends Component {
           <FooterLink href="https://github.com/risuney" imgsrc={GitHub} />
           <FooterLink href="https://qiita.com/risuney" imgsrc={Qiita} />
         </div>
-        <p className="size-footer-text footer-copy-right text-center text-light">Copyright © 2021 risuney All rights reserved.</p>
+        <p className="size-footer-text footer-copy-right text-center text-light">Copyright © {new Date().getFullYear()} risuney All rights reserved.</p>
       </footer>
     );
   }
