@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 class MadeGit extends Component {
   render() {
     return (
-      <a href={this.props.href} target="_blank" rel="noopener noreferrer">
-        <img src={this.props.gitsrc} className="github-stats" />
+      <a href={`https://github.com/risuney/${this.props.repoName}`} target="_blank" rel="noopener noreferrer">
+        <img
+          src={`https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=${this.props.girepoName}&theme=dark&hide_border=true`} className="github-stats"
+        />
       </a>
     )
   }

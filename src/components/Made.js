@@ -15,19 +15,19 @@ class Made extends Component {
         <div className="not-mobile">
           <div className="cards">
             <MadeCard
-              href="https://github.com/risuney/molecule-css"
+              href="molecule-css"
               imgsrc="https://github.com/risuney/molecule-css/raw/main/docs/static/logo/og-logo.jpeg"
               name="Molecule"
               exp="CSS like a molecule"
             />
             <MadeCard
-              href="https://github.com/risuney/kanban-board"
+              href="kanban-board"
               imgsrc={Kanban}
               name="Kanban board"
               exp="This is Kanban"
             />
             <MadeCard
-              href="https://github.com/risuney/ramen-timer"
+              href="ramen-timer"
               imgsrc="https://raw.githubusercontent.com/risuney/ramen-timer/main/static/logo-ogp.png"
               name="Ramen Timer"
               exp="ラーメンたちを美味しく作るためのタイマーです"
@@ -35,19 +35,19 @@ class Made extends Component {
           </div>
           <div className="cards">
             <MadeCard
-              href="https://github.com/risuney/KIRINUKU"
+              href="KIRINUKU"
               imgsrc={Kirinuku}
               name="KIRINUKU"
               exp="A tool for cutting images into circles and rounded corners"
             />
             <MadeCard
-              href="https://github.com/risuney/photo-compression"
+              href="photo-compression"
               imgsrc={Photo}
               name="Photo compression"
               exp="写真を圧縮"
             />
             <MadeCard
-              href="https://github.com/risuney/qr-code"
+              href="qr-code"
               imgsrc={Qr}
               name="QR Code"
               exp="QRコードの作成"
@@ -55,30 +55,12 @@ class Made extends Component {
           </div>
         </div>
         <div className="only-mobile">
-          <MadeGit
-            href="https://github.com/risuney/molecule-css"
-            gitsrc="https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=molecule-css&theme=dark&hide_border=true"
-          />
-          <MadeGit
-            href="https://github.com/risuney/kanban-board"
-            gitsrc="https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=kanban-board&theme=dark&hide_border=true"
-          />
-          <MadeGit
-            href="https://github.com/risuney/ramen-timer"
-            gitsrc="https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=ramen-timer&theme=dark&hide_border=true"
-          />
-          <MadeGit
-            href="https://github.com/risuney/KIRINUKU"
-            gitsrc="https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=KIRINUKU&theme=dark&hide_border=true"
-          />
-          <MadeGit
-            href="https://github.com/risuney/photo-compression"
-            gitsrc="https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=photo-compression&theme=dark&hide_border=true"
-          />
-          <MadeGit
-            href="https://github.com/risuney/qr-code"
-            gitsrc="https://github-readme-stats.vercel.app/api/pin/?username=risuney&repo=qr-code&theme=dark&hide_border=true"
-          />
+          <MadeGit repoName="molecule-css" />
+          <MadeGit repoName="kanban-board" />
+          <MadeGit repoName="ramen-timer" />
+          <MadeGit repoName="KIRINUKU" />
+          <MadeGit repoName="photo-compression" />
+          <MadeGit repoName="qr-code" />
         </div>
       </section>
     );
