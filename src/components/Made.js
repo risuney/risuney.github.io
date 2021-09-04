@@ -16,9 +16,9 @@ class Made extends Component {
           <div className="cards">
             <MadeCard
               href="molecule-css"
-              imgsrc="https://github.com/risuney/molecule-css/raw/main/docs/static/logo/og-logo.jpeg"
-              name="Molecule"
-              exp="CSS like a molecule"
+              imgsrc="https://raw.githubusercontent.com/risuney/molecule-css/main/docs/src/static/logo/og-logo.png"
+              name="MoleculeCSS"
+              exp="Simple and modern CSS framework"
             />
             <MadeCard
               href="kanban-board"
