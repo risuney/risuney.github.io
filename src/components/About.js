@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import SizeArticle from './SizeArticle';
 import SubHeading from './SubHeading';
-import SnsIcon from '../statics/SnsIcon.png';
-import TechIcon from '../statics/TechIcon.png';
 
 class About extends Component {
   render() {
@@ -16,13 +14,21 @@ class About extends Component {
           <div className="mass-icon">
             <SizeArticle text="SNS" />
             <a href="https://twitter.com/risuney" target="_blank" rel="noopener noreferrer">
-              <img src={SnsIcon} alt="SNS icon" className="img-icon" />
+              <img
+                src="https://pbs.twimg.com/media/E-ca0TSVQAULYMi?format=png&name=large"
+                alt="SNS icon"
+                className="img-icon"
+              />
             </a>
           </div>
           <div className="mass-icon">
             <SizeArticle text="Tech" />
             <a href="https://twitter.com/tech_risuney" target="_blank" rel="noopener noreferrer">
-              <img src={TechIcon} alt="Tech icon" className="img-icon" />
+              <img
+                src="https://pbs.twimg.com/media/E8HDI7jUUAIeM6b?format=png&name=large"
+                alt="Tech icon"
+                className="img-icon"
+              />
             </a>
           </div>
         </div>
