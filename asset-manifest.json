@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1f164245.chunk.css",
-    "main.js": "/static/js/main.9ebdbbd1.chunk.js",
-    "main.js.map": "/static/js/main.9ebdbbd1.chunk.js.map",
+    "main.js": "/static/js/main.d29ddfb9.chunk.js",
+    "main.js.map": "/static/js/main.d29ddfb9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fee3db7b.js",
     "runtime-main.js.map": "/static/js/runtime-main.fee3db7b.js.map",
     "static/js/2.bd7e78e3.chunk.js": "/static/js/2.bd7e78e3.chunk.js",
@@ -12,8 +12,6 @@
     "static/js/2.bd7e78e3.chunk.js.LICENSE.txt": "/static/js/2.bd7e78e3.chunk.js.LICENSE.txt",
     "static/media/Instagram_Glyph_Gradient_RGB.f7b3dff3.png": "/static/media/Instagram_Glyph_Gradient_RGB.f7b3dff3.png",
     "static/media/KIRINUKU.ca3de699.png": "/static/media/KIRINUKU.ca3de699.png",
-    "static/media/SnsIcon.1951a187.png": "/static/media/SnsIcon.1951a187.png",
-    "static/media/TechIcon.a487015d.png": "/static/media/TechIcon.a487015d.png",
     "static/media/code-mobile.0d32d89d.jpg": "/static/media/code-mobile.0d32d89d.jpg",
     "static/media/code.362be9f9.jpg": "/static/media/code.362be9f9.jpg",
     "static/media/kanban-board.5eace4f3.png": "/static/media/kanban-board.5eace4f3.png",
@@ -25,6 +23,6 @@
     "static/js/runtime-main.fee3db7b.js",
     "static/js/2.bd7e78e3.chunk.js",
     "static/css/main.1f164245.chunk.css",
-    "static/js/main.9ebdbbd1.chunk.js"
+    "static/js/main.d29ddfb9.chunk.js"
   ]
 }
