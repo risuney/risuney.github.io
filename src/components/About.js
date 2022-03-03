@@ -8,7 +8,7 @@ class About extends Component {
       <section className="section bg-light size-large">
         <SubHeading text="About risuney" />
         <SizeArticle text="暇をつぶすために作りたいなーと思ったものを作っている在日日本人です。たまに絵を描きますがヘタです。写真を取ることが好きです。" />
-        <SizeArticle text="ReactとかPythonをやらないと休日が楽しくなさそうなのでやろうと思っています。" />
+        <SizeArticle text="Reactをやってみることはできました。次はPythonですが、最近は時間がないので後回しになりそうです。" />
         <SizeArticle text="やっとこのページのReact化ができました" />
         <div className="imgs">
           <div className="mass-icon">
@@ -22,7 +22,7 @@ class About extends Component {
             </a>
           </div>
           <div className="mass-icon">
-            <SizeArticle text="Tech" />
+            <SizeArticle text="Tech（永久凍土に眠ってしまいました）" />
             <a href="https://twitter.com/tech_risuney" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://pbs.twimg.com/media/E8HDI7jUUAIeM6b?format=png&name=large"

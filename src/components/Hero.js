@@ -5,7 +5,7 @@ import Code_m from '../statics/code-mobile.jpg';
 class Hero extends Component {
   render() {
     return (
-      <div className="hero bg-visual size-height-full">
+      <div className="hero bg-visual size-full-height">
         <div className="hero-body">
           <h1 className="size-headline text-light">I'm risuney!</h1>
           <p className="size-4 text-dark-light">HTML | CSS | JS</p>
