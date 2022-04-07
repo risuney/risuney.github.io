@@ -22,10 +22,10 @@ class About extends Component {
             </a>
           </div>
           <div className="mass-icon">
-            <SizeArticle text="Tech（永久凍土に眠ってしまいました）" />
-            <a href="https://twitter.com/tech_risuney" target="_blank" rel="noopener noreferrer">
+            <SizeArticle text="Tech" />
+            <a href="https://twitter.com/smart_risuney" target="_blank" rel="noopener noreferrer">
               <img
-                src="https://pbs.twimg.com/media/E8HDI7jUUAIeM6b?format=png&name=large"
+                src="https://pbs.twimg.com/profile_images/1502980284425269250/K8hWKrlS_400x400.jpg"
                 alt="Tech icon"
                 className="img-icon"
               />
